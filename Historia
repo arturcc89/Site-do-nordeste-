@@ -1,5 +1,4 @@
-  <!doctype html>
-
+<!doctype html>
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8" />
@@ -8,63 +7,25 @@
   <style>
     :root{--accent:#ff6b35}
     *{box-sizing:border-box}
-    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(180deg,#071028 0%,#092033 100%);color:#e6eef8;min-height:100vh;padding:24px}
+    body{
+      margin:0;
+      font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      background:linear-gradient(180deg,#071028 0%,#092033 100%);
+      color:#e6eef8;
+      min-height:100vh;
+      padding:24px
+    }
     .container{max-width:920px;margin:0 auto}
-    .top{display:flex;align-items:center;gap:12px;margin-bottom:18px}
-    a.back{display:inline-flex;align-items:center;gap:8px;color:var(--accent);text-decoration:none;font-weight:700}
-    h1{font-size:28px;margin:0}
-    .card{background:rgba(255,255,255,0.03);padding:18px;border-radius:12px;border:1px solid rgba(255,255,255,0.04);margin-bottom:14px}
+    a.back{display:inline-block;margin-bottom:20px;color:var(--accent);text-decoration:none;font-weight:600}
+    h1{font-size:28px;margin-top:0}
+    .card{
+      background:rgba(255,255,255,0.03);
+      padding:18px;
+      border-radius:12px;
+      border:1px solid rgba(255,255,255,0.04);
+      margin-bottom:14px
+    }
     h2{color:var(--accent);margin:0 0 8px}
     ul{margin:0;padding-left:20px}
     li{margin:6px 0}
-    footer{margin-top:18px;opacity:0.75;font-size:13px}
-    @media (max-width:520px){h1{font-size:20px}}
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="top">
-      <a href="index.html" class="back">← Voltar</a>
-      <h1>História do Nordeste</h1>
-    </div><article class="card" aria-labelledby="periodo">
-  <h2 id="periodo">Período Colonial</h2>
-  <ul>
-    <li>Primeira região colonizada do Brasil (1500).</li>
-    <li>Riqueza do açúcar e a economia açucareira.</li>
-    <li>Invasões holandesas em Pernambuco (1630–1654) e conflitos por domínio.</li>
-  </ul>
-</article>
-
-<article class="card" aria-labelledby="resistencias">
-  <h2 id="resistencias">Resistências e Revoltas</h2>
-  <ul>
-    <li>Quilombo dos Palmares e Zumbi como símbolo da resistência negra.</li>
-    <li>Revolução Pernambucana (1817) e movimentos liberais.</li>
-    <li>Confederação do Equador (1824) — reação à centralização imperial.</li>
-    <li>Guerra de Canudos (1896–1897) — conflito entre sertanejos e República.</li>
-  </ul>
-</article>
-
-<article class="card" aria-labelledby="cangaco">
-  <h2 id="cangaco">Cangaço e o Sertão</h2>
-  <ul>
-    <li>Movimento social e violento que marcou o sertão nordestino.</li>
-    <li>Líderes famosos: Lampião e Maria Bonita, que viraram ícones culturais.</li>
-  </ul>
-</article>
-
-<article class="card" aria-labelledby="modernizacao">
-  <h2 id="modernizacao">Século XX e Modernização</h2>
-  <ul>
-    <li>Transformações econômicas e migrações para centros urbanos.</li>
-    <li>Políticas públicas e programas de desenvolvimento regional (ex.: São Francisco).</li>
-  </ul>
-</article>
-
-<footer>
-  Dica: para o link funcionar, garanta que <strong>index.html</strong> e <strong>historia.html</strong> estejam na mesma pasta do repositório. Se usar GitHub Pages, coloque os arquivos no branch publicado (ex.: <code>main</code>).
-</footer>
-
-  </div>
-</body>
-</html>
+    footer{margin-top:18px;opacity:0.75
