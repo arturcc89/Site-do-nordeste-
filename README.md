@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Nordeste — Tela Principal</title>
   <style>
-    :root{--accent:#ff6b35;--bg:#0f1720}
+    :root{--accent:#ff6b35}
     *{box-sizing:border-box}
     body{
       margin:0;
@@ -65,7 +65,6 @@
       <div class="card">
         <h2>História</h2>
         <p>Eventos coloniais, revoltas e símbolos culturais.</p>
-        <!-- Link para a página de história -->
         <a class="btn" href="historia.html">Ver História</a>
       </div>
 
@@ -83,7 +82,7 @@
     </div>
 
     <footer>
-      Feito com ♥ — salve este arquivo como <strong>index.html</strong> no mesmo lugar que <strong>historia.html</strong>.
+      Feito com ♥ — esta é a tela inicial. Clique em História para ir para a próxima página.
     </footer>
   </div>
 </body>
