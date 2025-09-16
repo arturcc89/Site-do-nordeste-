@@ -7,15 +7,54 @@
   <style>
     :root{--accent:#ff6b35;--bg:#0f1720}
     *{box-sizing:border-box}
-    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(180deg,#071028 0%,#092033 100%);color:#e6eef8;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
-    .container{width:100%;max-width:960px;text-align:center}
-    h1{font-size:28px;margin-bottom:20px}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
-    .card{background:rgba(255,255,255,0.03);border-radius:16px;padding:20px;border:1px solid rgba(255,255,255,0.06);box-shadow:0 6px 18px rgba(0,0,0,0.5)}
+    body{
+      margin:0;
+      font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      background:linear-gradient(180deg,#071028 0%,#092033 100%);
+      color:#e6eef8;
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:24px
+    }
+    .container{
+      width:100%;
+      max-width:960px;
+      text-align:center
+    }
+    h1{
+      font-size:28px;
+      margin-bottom:20px
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:20px
+    }
+    .card{
+      background:rgba(255,255,255,0.03);
+      border-radius:16px;
+      padding:20px;
+      border:1px solid rgba(255,255,255,0.06);
+      box-shadow:0 6px 18px rgba(0,0,0,0.5)
+    }
     h2{margin:0 0 8px;color:var(--accent)}
     p{margin:0 0 14px;color:rgba(230,238,248,0.85)}
-    a.btn{display:inline-block;padding:10px 16px;border-radius:10px;background:var(--accent);color:#071022;text-decoration:none;font-weight:600}
-    footer{margin-top:24px;font-size:13px;opacity:0.7}
+    a.btn{
+      display:inline-block;
+      padding:10px 16px;
+      border-radius:10px;
+      background:var(--accent);
+      color:#071022;
+      text-decoration:none;
+      font-weight:600
+    }
+    footer{
+      margin-top:24px;
+      font-size:13px;
+      opacity:0.7
+    }
   </style>
 </head>
 <body>
@@ -26,12 +65,13 @@
       <div class="card">
         <h2>História</h2>
         <p>Eventos coloniais, revoltas e símbolos culturais.</p>
+        <!-- Link para a página de história -->
         <a class="btn" href="historia.html">Ver História</a>
       </div>
 
       <div class="card">
         <h2>Principais Artistas</h2>
-        <p>Os músicos, escritores e atores mais famosos do Nordeste.</p>
+        <p>Músicos, escritores e atores famosos do Nordeste.</p>
         <a class="btn" href="#">Em breve</a>
       </div>
 
