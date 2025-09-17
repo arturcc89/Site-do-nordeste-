@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Principais Artistas — Nordeste</title>
+  <title>Principais Artistas do Nordeste</title>
   <style>
     :root{--accent:#ff6b35}
     *{box-sizing:border-box}
@@ -13,62 +13,57 @@
       background:linear-gradient(180deg,#071028 0%,#092033 100%);
       color:#e6eef8;
       min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
       padding:24px
     }
-    .container{max-width:920px;margin:0 auto}
-    a.back{display:inline-block;margin-bottom:20px;color:var(--accent);text-decoration:none;font-weight:600}
-    h1{font-size:28px;margin-top:0}
-    .card{
+    .container{
+      width:100%;
+      max-width:800px;
       background:rgba(255,255,255,0.03);
-      padding:18px;
-      border-radius:12px;
-      border:1px solid rgba(255,255,255,0.04);
-      margin-bottom:14px
+      border-radius:16px;
+      padding:24px;
+      border:1px solid rgba(255,255,255,0.06);
+      box-shadow:0 6px 18px rgba(0,0,0,0.5)
     }
-    h2{color:var(--accent);margin:0 0 8px}
-    ul{margin:0;padding-left:20px}
-    li{margin:6px 0}
-    footer{margin-top:18px;opacity:0.75;font-size:13px}
+    h1{font-size:28px;color:var(--accent);margin-bottom:20px;text-align:center}
+    ul{margin-bottom:16px;line-height:1.6;text-align:left}
+    a.btn{
+      display:inline-block;
+      margin-top:20px;
+      padding:10px 16px;
+      border-radius:10px;
+      background:var(--accent);
+      color:#071022;
+      text-decoration:none;
+      font-weight:600
+    }
+    footer{
+      margin-top:24px;
+      font-size:13px;
+      opacity:0.8;
+      text-align:center;
+      color:#b0c4de;
+    }
   </style>
 </head>
 <body>
   <div class="container">
-    <a href="index.html" class="back">← Voltar para a Tela Principal</a>
     <h1>Principais Artistas do Nordeste</h1>
+    <ul>
+      <li>🎶 <strong>Luiz Gonzaga (PE)</strong> – Rei do Baião.</li>
+      <li>🎤 <strong>Ivete Sangalo (BA)</strong> – Rainha do axé.</li>
+      <li>🎸 <strong>Wesley Safadão (CE)</strong> – Forró e sertanejo.</li>
+      <li>📚 <strong>Jorge Amado (BA)</strong> – Um dos escritores brasileiros mais famosos do mundo.</li>
+      <li>🎭 <strong>Renato Aragão (CE)</strong> – O eterno Didi dos Trapalhões.</li>
+      <li>⚽ <strong>Marta (AL)</strong> – Eleita melhor jogadora de futebol do mundo diversas vezes.</li>
+    </ul>
 
-    <div class="card">
-      <h2>🎶 Música</h2>
-      <ul>
-        <li><b>Luiz Gonzaga</b> (PE) – Rei do Baião.</li>
-        <li><b>Ivete Sangalo</b> (BA) – Rainha do Axé.</li>
-        <li><b>Wesley Safadão</b> (CE) – Forró e sertanejo.</li>
-        <li><b>Dominguinhos</b> (PE) – Mestre do acordeon.</li>
-        <li><b>Elba Ramalho</b> (PB) – Cantora de forró e MPB.</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h2>📚 Literatura</h2>
-      <ul>
-        <li><b>Jorge Amado</b> (BA) – Um dos escritores brasileiros mais famosos do mundo.</li>
-        <li><b>Ariano Suassuna</b> (PB/PE) – Autor de “O Auto da Compadecida”.</li>
-        <li><b>Rachel de Queiroz</b> (CE) – Primeira mulher na Academia Brasileira de Letras.</li>
-        <li><b>Patativa do Assaré</b> (CE) – Poeta popular nordestino.</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h2>🎭 Humor, Televisão e Cinema</h2>
-      <ul>
-        <li><b>Renato Aragão</b> (CE) – O eterno Didi dos Trapalhões.</li>
-        <li><b>Whindersson Nunes</b> (PI) – Humorista e criador de conteúdo.</li>
-        <li><b>Tom Cavalcante</b> (CE) – Humorista de stand-up e TV.</li>
-        <li><b>Matheus Nachtergaele</b> (PE) – Ator de cinema e teatro.</li>
-      </ul>
-    </div>
+    <a class="btn" href="index.html">Voltar para a tela principal</a>
 
     <footer>
-      Clique em “Voltar” para retornar à tela inicial.
+      Feito por Artur Gomes da Silva, Caroline da Cruz, Ana Beatriz, Lucas Henrique, Juan Pablo e Yuri — Turma 3003
     </footer>
   </div>
 </body>
