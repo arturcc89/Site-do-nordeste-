@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>História — Nordeste</title>
+  <title>História do Nordeste</title>
   <style>
     :root{--accent:#ff6b35}
     *{box-sizing:border-box}
@@ -13,52 +13,54 @@
       background:linear-gradient(180deg,#071028 0%,#092033 100%);
       color:#e6eef8;
       min-height:100vh;
-      padding:24px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:24px
     }
-    .container{max-width:920px;margin:0 auto}
-    a.back{
-      display:inline-block;
-      margin-bottom:20px;
-      color:var(--accent);
-      text-decoration:none;
-      font-weight:600;
-    }
-    h1{font-size:28px;margin-top:0}
-    .card{
+    .container{
+      width:100%;
+      max-width:800px;
       background:rgba(255,255,255,0.03);
-      padding:18px;
-      border-radius:12px;
-      border:1px solid rgba(255,255,255,0.04);
-      margin-bottom:14px;
+      border-radius:16px;
+      padding:24px;
+      border:1px solid rgba(255,255,255,0.06);
+      box-shadow:0 6px 18px rgba(0,0,0,0.5)
     }
-    h2{color:var(--accent);margin:0 0 8px}
-    ul{margin:0;padding-left:20px}
-    li{margin:6px 0}
-    footer{margin-top:18px;opacity:0.75}
+    h1{font-size:28px;color:var(--accent);margin-bottom:20px;text-align:center}
+    p{margin-bottom:16px;line-height:1.6}
+    a.btn{
+      display:inline-block;
+      margin-top:20px;
+      padding:10px 16px;
+      border-radius:10px;
+      background:var(--accent);
+      color:#071022;
+      text-decoration:none;
+      font-weight:600
+    }
+    footer{
+      margin-top:24px;
+      font-size:13px;
+      opacity:0.8;
+      text-align:center;
+      color:#b0c4de;
+    }
   </style>
 </head>
 <body>
   <div class="container">
-    <a class="back" href="index.html">&larr; Voltar</a>
     <h1>História do Nordeste</h1>
+    <p>🏝️ Primeira região colonizada do Brasil em 1500.</p>
+    <p>🍬 Riqueza do açúcar no período colonial impulsionou o desenvolvimento da região.</p>
+    <p>⚔️ Invasões holandesas em Pernambuco (1630–1654) marcaram o início de resistências.</p>
+    <p>✊ Revoltas históricas: Quilombo dos Palmares, Revolução Pernambucana e Confederação do Equador.</p>
+    <p>🌵 O cangaço, com Lampião e Maria Bonita, se tornou símbolo de resistência no sertão.</p>
 
-    <div class="card">
-      <h2>Colonização</h2>
-      <p>O Nordeste foi colonizado principalmente por portugueses, que trouxeram culturas, religiões e a base econômica do açúcar.</p>
-    </div>
-
-    <div class="card">
-      <h2>Revoltas e Movimentos</h2>
-      <p>Houve diversas revoltas, como a Revolta de Canudos e a Confederação do Equador, que marcaram a história da região.</p>
-    </div>
-
-    <div class="card">
-      <h2>Simbolismo Cultural</h2>
-      <p>O Nordeste é rico em manifestações culturais, como o frevo, o maracatu, festas juninas e o artesanato típico.</p>
-    </div>
+    <a class="btn" href="index.html">Voltar para a tela principal</a>
 
     <footer>
-      Feito com ♥ — esta é a página de história.
+      Feito por Artur Gomes da Silva, Caroline da Cruz, Ana Beatriz, Lucas Henrique, Juan Pablo e Yuri — Turma 3003
     </footer>
   </div>
 </body>
